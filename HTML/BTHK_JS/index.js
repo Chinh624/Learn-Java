@@ -36,9 +36,6 @@ var data = new Data();
 
 
 
-function send(){
-      alert('Thank you for your email we will respond to your email');
-}
 
 
 
