@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Buoi2_t5.Main",
+      "projectName": "Vs code_b40cda9a"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/mac/Vs code",
+      "program": "/Users/mac/Vs code/build/Debug/outDebug"
+    }
+  ]
+}
