@@ -14,6 +14,7 @@ public class TreeSet {
 
         System.out.println("Fruits Set : " + fruits);
         System.out.println("Fruits Set 2: " + fruits);
+        System.out.println("Fruits Set 3: " + fruits);
 
         // add them vo trung lap thi no se bo qua.
         fruits.add("Apple");
