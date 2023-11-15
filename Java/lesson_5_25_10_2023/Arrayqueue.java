@@ -1,4 +1,4 @@
-package Buoi6_t5;
+package lesson_5_25_10_2023;
 import java.util.NoSuchElementException;
 
 public class Arrayqueue {
@@ -53,7 +53,5 @@ public void printQueue() {
     }
 }
 
-public void add(Buoi3_t5.Employee janeJones) {
-}
 
 }

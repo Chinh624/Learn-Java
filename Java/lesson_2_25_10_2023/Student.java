@@ -1,4 +1,4 @@
-package Buoi2_t5;
+package lesson_2_25_10_2023;
 
 public class Student {
     private int id;

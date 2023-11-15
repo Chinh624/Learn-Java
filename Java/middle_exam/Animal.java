@@ -1,4 +1,4 @@
-package BKTGK;
+package middle_exam;
 
 public class Animal {
 

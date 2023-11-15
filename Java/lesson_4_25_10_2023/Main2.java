@@ -1,5 +1,5 @@
-package Buoi4_t5;
-import Buoi4_t5.Student2;
+package lesson_4_25_10_2023;
+import lesson_4_25_10_2023.Student2;
 public class Main2 {
 public static void main(String[] args) {
     Student2 e01 = new Student2(111, "A");

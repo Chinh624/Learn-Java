@@ -1,4 +1,4 @@
-package BKTGK;
+package middle_exam;
 
 import java.util.Scanner;
 

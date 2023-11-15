@@ -1,4 +1,4 @@
-package Buoi3_t5;
+package lesson_3_25_10_2023;
 public class Main2 {
 public static void main(String[] args) {
     Employee e01 = new Employee(111, "A", "Ly");

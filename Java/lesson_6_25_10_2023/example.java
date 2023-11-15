@@ -1,4 +1,4 @@
-package Buoi7_t5;
+package lesson_6_25_10_2023;
 import java.util.Scanner;
 public class example {
     public static void main(String[] args){

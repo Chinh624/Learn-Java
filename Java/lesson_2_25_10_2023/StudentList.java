@@ -1,4 +1,4 @@
-package Buoi2_t5;
+package lesson_2_25_10_2023;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;

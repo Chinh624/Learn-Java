@@ -1,6 +1,5 @@
-package Buoi6_t5;
+package lesson_5_25_10_2023;
 
-import Buoi3_t5.Employee;
 
 
 public class Main {

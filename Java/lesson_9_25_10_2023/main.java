@@ -1,4 +1,4 @@
-package Buoi9_t5;
+package lesson_9_25_10_2023;
 
 public class main {
         public static void main(String[] args) {
@@ -28,4 +28,5 @@ public class main {
             binarySearchTree.traverseInOrder();
             System.out.println();
         }
+
     }
