@@ -3,6 +3,7 @@ package lesson_9_25_10_2023;
 public class main {
         public static void main(String[] args) {
             BinarySearchTree binarySearchTree = new BinarySearchTree();
+            // them cac phan tu thong qua phuong thuc insert
             binarySearchTree.insert(25);
             binarySearchTree.insert(20);
             binarySearchTree.insert(15);
@@ -13,7 +14,6 @@ public class main {
             binarySearchTree.insert(22);
             binarySearchTree.insert(32);
             binarySearchTree.insert(17);
-    
             // Print the tree in order
             System.out.println("Original Tree:");
             binarySearchTree.traverseInOrder();

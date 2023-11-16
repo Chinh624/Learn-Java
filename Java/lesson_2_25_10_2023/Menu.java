@@ -10,6 +10,6 @@ public class Menu {
     System.out.println("Press 5: Exits");
     System.out.print("Enter choice: ");
     choice = Main.in.nextInt();
-    return choice;
+        return choice;
     }
 }
