@@ -4,7 +4,6 @@ import java.util.Hashtable;
 
 public class Main {
     public static void main(String[] args) {
-        // TODO code application logic here
         Hashtable<String, String> myDictionary = new Hashtable<String, String>();
         System.out.println("" + myDictionary);
         myDictionary.put("happy", "having or showing a feeling of pleasure or  contentment");

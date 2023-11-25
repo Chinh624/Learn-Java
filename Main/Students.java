@@ -1,3 +1,4 @@
+package Main;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,9 +7,11 @@ import java.util.Scanner;
 public class Students {
     private String name;
     private int id;
+    // khoi tao bien list chua class studens = array list
     private List<Students> studentList = new ArrayList<>();
     private static Scanner scanner = new Scanner(System.in);
 
+    
     public void setName(String name) {
         this.name = name;
     }

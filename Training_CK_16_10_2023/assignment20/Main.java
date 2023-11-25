@@ -24,7 +24,7 @@ public class Main {
         System.out.println("\nTrai Phai Goc");
         intTree.traversePostOrder();
         System.out.println();
-        System.out.println(intTree.search(15));
+        System.out.println(intTree.search(20));
         System.out.println("MIN: " + intTree.min());
         System.out.println("MAX: " + intTree.max());
         System.out.println("Count :" + intTree.count());
