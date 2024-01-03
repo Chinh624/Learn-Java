@@ -10,6 +10,7 @@ public class Hash {
         for (int i = 0; i < array.length; i++) {
             myHashTable.put(array[i], "");
         }
+        
         for (int number : myHashTable.keySet()) {
             String value = myHashTable.get(number);
             System.out.println(value + " " + number);

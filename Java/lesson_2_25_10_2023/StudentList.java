@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class StudentList{
 
-    private List<Student> students = new ArrayList<>(); // Ap dung tinh da hinh
+    private List<Student> students = new ArrayList<>(); 
 
     public StudentList() {
         Student stu00 = new Student(000, "Mr F", 9.3);

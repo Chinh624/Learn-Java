@@ -21,7 +21,7 @@ public class BinarySearchTreeNode {
         } else if (key > data && right != null) {
             return right.search(key);
         }
-        return null; // Not found
+        return null;
     }
 
     // Insert
@@ -39,11 +39,6 @@ public class BinarySearchTreeNode {
                 right.insert(key);
             }
         }
-    }
-
-    // Remove
-    public BinarySearchTreeNode remove(int key) {
-        return null;
     }
 
     // Pre-order traversal
@@ -68,6 +63,16 @@ public class BinarySearchTreeNode {
         }
     }
 
+    public void reverse() {
+        if (right != null) {
+            right.reverse();
+        }
+        System.out.print(data + " ");
+        if (left != null) {
+            left.reverse();
+        }
+    }
+
     // Post-order traversal
     public void postOrderTraversal() {
         if (left != null) {
@@ -77,6 +82,56 @@ public class BinarySearchTreeNode {
             right.postOrderTraversal();
         }
         System.out.print(data + " ");
+    }
+
+    // Count nodes
+    public int countNodes() {
+        return countNodesRec(this);
+    }
+
+    private int countNodesRec(BinarySearchTreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        return 1 + countNodesRec(root.left) + countNodesRec(root.right);
+    }
+
+    public void minNode() {
+        BinarySearchTreeNode minNode = findMinNode(this);
+        if (minNode != null) {
+            System.out.println("Minimum Node: " + minNode.data);
+        } else {
+            System.out.println("Tree is empty.");
+        }
+    }
+
+    private BinarySearchTreeNode findMinNode(BinarySearchTreeNode node) {
+        if (node == null) {
+            return null;
+        }
+        while (node.left != null) {
+            node = node.left;
+        }
+        return node;
+    }
+
+    public void maxNode() {
+        BinarySearchTreeNode maxNode = findMaxNode(this);
+        if (maxNode != null) {
+            System.out.println("Maximum Node: " + maxNode.data);
+        } else {
+            System.out.println("Tree is empty.");
+        }
+    }
+
+    private BinarySearchTreeNode findMaxNode(BinarySearchTreeNode node) {
+        if (node == null) {
+            return null;
+        }
+        while (node.right != null) {
+            node = node.right;
+        }
+        return node;
     }
 
 }

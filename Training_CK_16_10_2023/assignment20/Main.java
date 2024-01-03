@@ -4,9 +4,6 @@ public class Main {
     public static void main(String[] args) {
         // TODO Auto-generated method stub
         TreeNode node01 = new TreeNode(25);
-        TreeNode node02 = new TreeNode(20);
-        TreeNode node03 = new TreeNode(15);
-        TreeNode node04 = new TreeNode(27);
         Tree intTree = new Tree();
         intTree.insert(25);
         intTree.insert(20);

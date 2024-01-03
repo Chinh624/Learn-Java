@@ -1,27 +1,39 @@
 package Tree;
 
 public class main {
-
     public static void main(String[] args) {
         // Example usage
-        BinarySearchTreeNode root = new BinarySearchTreeNode(50);
-        root.insert(30);
-        root.insert(70);
-        root.insert(20);
-        root.insert(40);
-        root.insert(60);
-        root.insert(80);
-        System.out.println("search tree");
-        root.search(20);
+        BinarySearchTreeNode root = new BinarySearchTreeNode(16);
+
+        int[] valuesToInsert = { 27, 32, 12, 52, 39, 76, 18, 4, 25, 69, 10, 8, 16 };
+        for (int value : valuesToInsert) {
+            root.insert(value);
+        }
+
         System.out.println("Pre-order traversal:");
-        // qua node cha trước sau đến node con trái rồi mới đến node con phải.
         root.preOrderTraversal();
-        // node con trái sau đến node cha rồi đến node con phải.
         System.out.println("\nIn-order traversal:");
         root.inOrderTraversal();
-        // node con trái, node con phải rồi đến node cha.
         System.out.println("\nPost-order traversal:");
         root.postOrderTraversal();
+        System.out.println("\nReverse");
+        root.reverse();
+        int numberOfNodes = root.countNodes();
+        System.out.println("\nNumber of nodes in the tree: " + numberOfNodes);
+
+        System.out.println("================================================================");
+
+        int keyToSearch = 16;
+
+        BinarySearchTreeNode foundNode = root.search(keyToSearch);
+        if (foundNode != null) {
+            System.out.println("Node with key " + keyToSearch + " found in the tree.");
+        } else {
+            System.out.println("Node with key " + keyToSearch + " not found in the tree.");
+        }
+
+        root.maxNode();
+        root.minNode();
 
     }
 }

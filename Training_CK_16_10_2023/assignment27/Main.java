@@ -9,11 +9,13 @@ public class Main {
         myDictionary.put("happy", "having or showing a feeling of pleasure or  contentment");
         myDictionary.put("lucky", "good things happened in my life");
         myDictionary.put("one", "a number with the count one");
-        // In ra
+
+        // Print elements using a loop
         for (String key : myDictionary.keySet()) {
             String value = myDictionary.get(key);
             System.out.println(key + " " + value);
         }
-    }
 
+        System.out.println("" + myDictionary.isEmpty());
+    }
 }
